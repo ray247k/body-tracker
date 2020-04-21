@@ -1,16 +1,20 @@
 <template>
   <div id="app">
-    <LineChart/>
+    <BodyFat/>
   </div>
 </template>
 
 <script>
-import LineChart from "./components/LineChart.vue"
+// inbody data import
+// import body_data from '../public/static/data'
+
+// import cart
+import BodyFat from "@/components/BodyFat.vue"
 
 export default {
   name: "App",
   components: {
-    LineChart
+    BodyFat
   }
 }
 </script>
