@@ -1,0 +1,38 @@
+{
+    "2019/11/19" : {
+        "body_weight" : 96.5,
+        "skeletal_muscle_mass" : 38.7,
+        "body_fat_weight" : 28.3,
+        "percent_body_fat" : 29.4
+    },
+    "2019/12/1" : {
+        "body_weight" : 96.0,
+        "skeletal_muscle_mass" : 39.4,
+        "body_fat_weight" : 27,
+        "percent_body_fat" : 28.1
+    },
+    "2019/12/29" : {
+        "body_weight" : 94.3,
+        "skeletal_muscle_mass" : 38.6,
+        "body_fat_weight" : 26.8,
+        "percent_body_fat" : 28.4
+    },
+    "2020/1/30" : {
+        "body_weight" : 96.4,
+        "skeletal_muscle_mass" : 38.4,
+        "body_fat_weight" : 29.2,
+        "percent_body_fat" : 30.3
+    },
+    "2020/3/30" : {
+        "body_weight" : 93.2,
+        "skeletal_muscle_mass" : 37.2,
+        "body_fat_weight" : 27.7,
+        "percent_body_fat" : 29.7
+    },
+    "2020/4/21" : {
+        "body_weight" : 92.9,
+        "skeletal_muscle_mass" : 37.8,
+        "body_fat_weight" : 26.1,
+        "percent_body_fat" : 28.1
+    }
+}
