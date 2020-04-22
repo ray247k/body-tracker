@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <BodyWeight :bodyDatas="bodyDatas"/>
+    <SkeletalMuscleMass :bodyDatas="bodyDatas"/>
+    <BodyFatWeight :bodyDatas="bodyDatas"/>
     <PercentBodyFat :bodyDatas="bodyDatas"/>
   </div>
 </template>
@@ -9,11 +12,17 @@
 import body_data from '../public/static/data'
 
 // import cart
+import BodyWeight from "@/components/BodyWeight.vue"
+import SkeletalMuscleMass from "@/components/SkeletalMuscleMass.vue"
+import BodyFatWeight from "@/components/BodyFatWeight.vue"
 import PercentBodyFat from "@/components/PercentBodyFat.vue"
 
 export default {
   name: "App",
   components: {
+    BodyWeight,
+    SkeletalMuscleMass,
+    BodyFatWeight,
     PercentBodyFat
   },
   data () {

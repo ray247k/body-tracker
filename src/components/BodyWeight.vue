@@ -10,8 +10,8 @@ export default {
         labels: this.bodyDatas.map(data => data.date),
         datasets: [
           {
-            label: "體脂肪率（％）",
-            data: this.bodyDatas.map(data => data.percent_body_fat),
+            label: "體重（kg）",
+            data: this.bodyDatas.map(data => data.body_weight),
             backgroundColor: "transparent",
             borderColor: "rgba(1, 116, 188, 0.50)",
             pointBackgroundColor: "rgba(1, 116, 188, 0.50)"
@@ -23,7 +23,7 @@ export default {
         maintainAspectRatio: false,
         title: {
           display: true,
-          text: "體脂肪率"
+          text: "體重變化"
         }
       }
     );
