@@ -1,20 +1,25 @@
 <template>
   <div id="app">
-    <BodyFat/>
+    <PercentBodyFat :bodyDatas="bodyDatas"/>
   </div>
 </template>
 
 <script>
 // inbody data import
-// import body_data from '../public/static/data'
+import body_data from '../public/static/data'
 
 // import cart
-import BodyFat from "@/components/BodyFat.vue"
+import PercentBodyFat from "@/components/PercentBodyFat.vue"
 
 export default {
   name: "App",
   components: {
-    BodyFat
+    PercentBodyFat
+  },
+  data () {
+    return {
+      bodyDatas: body_data
+    }
   }
 }
 </script>

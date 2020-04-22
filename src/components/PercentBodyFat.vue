@@ -3,20 +3,15 @@ import { Line } from "vue-chartjs";
 
 export default {
   extends: Line,
+  props:["bodyDatas"],
   mounted() {
     this.renderChart(
       {
-        labels: [
-          "2019/11/19",
-          "2019/12/01",
-          "2019/12/29",
-          "2020/01/30",
-          "2020/03/03",
-        ],
+        labels: this.bodyDatas.map(data => data.date),
         datasets: [
           {
             label: "體脂肪率（％）",
-            data: [29.4, 28.1, 28.4, 30.3, 29.7],
+            data: this.bodyDatas.map(data => data.percent_body_fat),
             backgroundColor: "transparent",
             borderColor: "rgba(1, 116, 188, 0.50)",
             pointBackgroundColor: "rgba(1, 116, 188, 0.50)"
