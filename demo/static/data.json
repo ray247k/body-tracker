@@ -7,7 +7,7 @@
         "percent_body_fat" : 29.4
     },
     {
-        "date" : "2019/12/1",
+        "date" : "2019/12/01",
         "body_weight" : 96.0,
         "skeletal_muscle_mass" : 39.4,
         "body_fat_weight" : 27,
@@ -20,7 +20,7 @@
         "percent_body_fat" : 28.4
     },
     {
-        "date" : "2020/1/30",
+        "date" : "2020/01/30",
         "body_weight" : 96.4,
         "skeletal_muscle_mass" : 38.4,
         "body_fat_weight" : 29.2,
@@ -34,10 +34,17 @@
         "percent_body_fat" : 29.7
     },
     {
-        "date" : "2020/4/21",
+        "date" : "2020/04/21",
         "body_weight" : 92.9,
         "skeletal_muscle_mass" : 37.8,
         "body_fat_weight" : 26.1,
         "percent_body_fat" : 28.1
+    },
+    {
+        "date" : "2020/05/08",
+        "body_weight" : 91.4,
+        "skeletal_muscle_mass" : 37.8,
+        "body_fat_weight" : 24.8,
+        "percent_body_fat" : 27.2
     }
 ]

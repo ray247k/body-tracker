@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <BodyWeight :bodyDatas="bodyDatas"/>
-    <SkeletalMuscleMass :bodyDatas="bodyDatas"/>
     <BodyFatWeight :bodyDatas="bodyDatas"/>
     <PercentBodyFat :bodyDatas="bodyDatas"/>
+    <SkeletalMuscleMass :bodyDatas="bodyDatas"/>
   </div>
 </template>
 
