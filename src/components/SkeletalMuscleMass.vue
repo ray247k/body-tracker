@@ -23,7 +23,7 @@ export default {
         maintainAspectRatio: false,
         title: {
           display: true,
-          text: "骨骼肌重"
+          text: `骨骼肌重：${(this.bodyDatas[this.bodyDatas.length - 1]['skeletal_muscle_mass'] - this.bodyDatas[0]['skeletal_muscle_mass']).toFixed(2)} kg`
         }
       }
     );

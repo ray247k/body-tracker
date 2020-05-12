@@ -23,7 +23,7 @@ export default {
         maintainAspectRatio: false,
         title: {
           display: true,
-          text: "體脂肪率"
+          text: `體脂肪率：${(this.bodyDatas[this.bodyDatas.length - 1]['percent_body_fat'] - this.bodyDatas[0]['percent_body_fat']).toFixed(2)} %`
         }
       }
     );

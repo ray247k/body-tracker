@@ -23,7 +23,7 @@ export default {
         maintainAspectRatio: false,
         title: {
           display: true,
-          text: "體重變化"
+          text: `體重變化：${(this.bodyDatas[this.bodyDatas.length - 1]['body_weight'] - this.bodyDatas[0]['body_weight']).toFixed(2)} kg`
         }
       }
     );
