@@ -1,5 +1,5 @@
 <template>
-  <div>經過時間：{{dateDiff}} 天</div>
+  <div class="dateDiff">經過時間：{{dateDiff}} 天</div>
 </template>
 
 <script>
@@ -19,3 +19,12 @@ export default {
   }
 };
 </script>
+<style>
+.dateDiff {
+  top: 2%;
+  font-size: 2em;
+  position: fixed;
+  background-color: rgba(1, 116, 188, 0.7);
+  color: rgba(255, 255, 255);
+}
+</style>
