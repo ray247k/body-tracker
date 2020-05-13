@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <dateDiff :bodyDatas="bodyDatas"/>
     <BodyWeight :bodyDatas="bodyDatas"/>
     <BodyFatWeight :bodyDatas="bodyDatas"/>
     <PercentBodyFat :bodyDatas="bodyDatas"/>
@@ -11,7 +12,9 @@
 // inbody data import
 import body_data from '../public/static/data'
 
-// import cart
+import dateDiff from "@/components/DateDiff.vue"
+
+// import chart
 import BodyWeight from "@/components/BodyWeight.vue"
 import SkeletalMuscleMass from "@/components/SkeletalMuscleMass.vue"
 import BodyFatWeight from "@/components/BodyFatWeight.vue"
@@ -20,6 +23,7 @@ import PercentBodyFat from "@/components/PercentBodyFat.vue"
 export default {
   name: "App",
   components: {
+    dateDiff,
     BodyWeight,
     SkeletalMuscleMass,
     BodyFatWeight,
