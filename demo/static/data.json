@@ -46,5 +46,12 @@
         "skeletal_muscle_mass" : 37.8,
         "body_fat_weight" : 24.8,
         "percent_body_fat" : 27.2
+    },
+    {
+        "date" : "2020/05/25",
+        "body_weight" : 89.9,
+        "skeletal_muscle_mass" : 36.4,
+        "body_fat_weight" : 25.8,
+        "percent_body_fat" : 28.7
     }
 ]
