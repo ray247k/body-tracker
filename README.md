@@ -25,3 +25,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Demo page
+See the online [Demo page](https://ray247k.github.io/body-tracker/demo/)
